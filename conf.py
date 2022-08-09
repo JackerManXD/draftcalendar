@@ -1,5 +1,5 @@
-api_hash = "0c780f6db3124fafbdc3dcde437e6f21"
-api_id = 16536294
-bot_token = "5217944853:AAFcr4oWWvrZL4AttLYccOVXSmv60aIoxc8"
-authorized_users = ['LAES2002']
-admin_user = 'LAES2002'
+api_hash = "9244d23f7072354594d2977064cc7b0c"
+api_id = 13380286
+bot_token = "5599851168:AAFlptdQnQl9Dr3OqgMEa7A1mGzy5hYq1Ck"
+authorized_users = ['ErickYasser']
+admin_user = 'ErickYasser'
