@@ -145,6 +145,12 @@ bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 async def message_handler(client: Client, message: Message):
     uid: str = message.from_user.username
     msg: str = message.text
+    try:
+        if message.document.mime_type == 'text/plain':
+            file = await message.download('./') 
+            with open(file, 'r') as f: msg = f.read()
+            unlink(file)
+    except: pass
     if not msg:
         msg = ""
     if msg.lower() == "/start":
